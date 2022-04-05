@@ -1,0 +1,54 @@
+/* ============================================= */
+/*              Variables                      */
+/* ============================================= */
+
+// Descriptive color variables
+
+$grey: #777;
+$viking:#58E1C1;
+$malibu:#51ddfc;
+$purple-moountain:#927bc1;
+$coral:#FD7856;
+$french-lilac:#deb2ee;
+$anakiwa:#7ee6fd;
+$vista-blue:#88d9a0;
+$fountain-blue:#4da2bb;
+$sea-pink:#ec9fa3;
+$vivid-tangerine:#fd9f85;
+$sunglo:#e4757a;
+$emerald:#63cc82;
+$riptide:#80E8D1;
+$white:#fff;
+$light-grey:#ccc;
+
+// Functional color variables
+
+$body-background :$grey;
+$headline-primary:$viking;
+$headline-secondary:$grey;
+$link:$malibu;
+$background-color-col1:$purple-moountain;
+$background-color-col2:$coral;
+$background-color-col3:$french-lilac;
+$background-color-col4:$anakiwa;
+$background-color-col5:$vista-blue;
+$background-color-col6:$fountain-blue;
+$background-color-col7:$sea-pink;
+$background-color-col8:$vivid-tangerine;
+$background-color-col9:$sunglo;
+$background-color-col10:$emerald;
+$background-color-col11:$malibu;
+$background-color-col12:$riptide;
+$nav-link-hover:$viking;
+
+//button color variables
+$button-background-default:$malibu;
+$button-background-error:$sunglo;
+$button-background-info:$purple-moountain;
+$button-background-success:$emerald;
+$button-background-warning:$coral;
+
+//media-querie variables 
+
+$min-width-ipad:768px;
+$max-width-display:1400px;
