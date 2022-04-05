@@ -408,7 +408,6 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  background-color: #927bc1;
 }
 
 .default {
@@ -429,11 +428,6 @@ a {
 
 .warning {
   background-color: #FD7856;
-}
-
-.btn:hover {
-  background-color: lighthen(#927bc1, 15%);
-  transition: background-color ease-in;
 }
 
 /* ============================================= */
