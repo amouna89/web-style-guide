@@ -412,22 +412,41 @@ a {
 
 .default {
   background-color: #51ddfc;
+  transition: background-color 0.5s linear;
+}
+.default:hover {
+  background-color: #9cecfd;
 }
 
 .error {
   background-color: #e4757a;
+  transition: background-color 0.5s linear;
+}
+.error:hover {
+  background-color: #f1b5b8;
 }
 
 .info {
   background-color: #927bc1;
+  transition: background-color 0.5s linear;
+}
+.info:hover {
+  background-color: #bdafd9;
 }
 
 .success {
   background-color: #63cc82;
+  transition: background-color 0.5s linear;
+}
+.success:hover {
+  background-color: #9ddfb0;
 }
 
 .warning {
   background-color: #FD7856;
+}
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* ============================================= */
@@ -489,6 +508,9 @@ a {
   max-width: 100%;
 }
 .img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-height: 100%;
 }
 .img-frame {
@@ -497,12 +519,6 @@ a {
 }
 
 .img-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.img-avatar {
   display: block;
   margin-left: auto;
   margin-right: auto;

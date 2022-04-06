@@ -6,11 +6,12 @@
 .img {
   @include style-img;
   &-avatar {
+  @include center; 
   max-height: 100%;
    }
   &-frame {
   padding: 13px;
-    border: 1px solid #ccc;
+  border: 1px solid #ccc;
   }
   
 }
@@ -18,6 +19,4 @@
 .img-logo {
     @include center;
   }
-  .img-avatar {
-    @include center; 
-  }
+  
