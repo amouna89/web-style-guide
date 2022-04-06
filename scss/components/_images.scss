@@ -15,7 +15,9 @@
   
 }
   
-  .img-logo {
+.img-logo {
     @include center;
   }
-  
+  .img-avatar {
+    @include center; 
+  }
