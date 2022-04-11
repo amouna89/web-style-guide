@@ -5,50 +5,16 @@
   @include button-style;
 }
 
-.default {
+@each $bt-style,$color in $button-styles{
 
-  background-color: $malibu;
+  .bt-#{$bt-style}{
+
+  background-color: $color;
   transition: background-color 0.5s linear;
-
   &:hover{
-    background-color: lighten($malibu, 15%);
+    background-color: lighten($color, 15%);
+  }
+
   }
 }
 
-.error {
-
-  background-color: $sunglo;
-  transition: background-color 0.5s linear;
-
-  &:hover{
-    background-color: lighten($sunglo, 15%);
-  }
-}
-
-.info {
- 
-  background-color: $purple-moountain;
-  transition: background-color 0.5s linear;
-
-  &:hover{
-    background-color: lighten($purple-moountain, 15%);
-  }
-}
-
-.success {
- 
-  background-color: $emerald;
-  transition: background-color 0.5s linear;
-
-  &:hover{
-    background-color: lighten($emerald, 15%);
-  }
-}
-
-.warning {
-  
-  background-color: $coral;
-  &:hover{
-    background-color: lighten($coral, 15%);
-  }
-}

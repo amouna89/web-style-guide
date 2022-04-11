@@ -52,3 +52,35 @@ $button-background-warning:$coral;
 
 $min-width-ipad:768px;
 $max-width-display:1400px;
+
+
+//creating a map for buttons
+
+$button-styles: (
+    'default':$malibu,
+    'error':$sunglo,
+    'info':$purple-moountain,
+    'success':$emerald,
+    'warning':$coral,
+
+);
+$grid-styles: (
+    '1':$purple-moountain,
+    '2':$coral,
+    '3':$french-lilac,
+    '4': $anakiwa,
+    '5':$vista-blue,
+    '6':$fountain-blue,
+    '7':$sea-pink,
+    '8':$vivid-tangerine,
+    '9':$sunglo,
+    '10':$emerald,
+    '11':$malibu,
+    '12':$riptide,
+
+);
+
+
+
+
+
