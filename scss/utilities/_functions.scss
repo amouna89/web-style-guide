@@ -1,0 +1,10 @@
+//functions  
+
+//pixel to percentage function 
+
+@function px-to-pc ($target,$context:$max-width-display){
+
+    @return ($target/$context)*100;
+
+}
+
